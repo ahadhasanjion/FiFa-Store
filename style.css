@@ -38,3 +38,17 @@ a{
     color: #FF5E19;
     font-size: 70px;
 }
+
+#main-part{
+    background-color: #434343;
+}
+.card{
+    border: 2px solid #434343;
+    border-radius: 5px;
+}
+.card-body{
+    background-color: #0D0D0D;
+}
+.card a{
+    background-color: #015196;
+}
