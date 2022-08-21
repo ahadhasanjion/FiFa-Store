@@ -42,15 +42,24 @@ a{
 #main-part{
     background-color: #434343;
 }
-.card{
+.card-part{
     border: 2px solid #434343;
     border-radius: 5px;
+}
+.card-part .football-player{
+    height: 30vh;
+    object-fit: cover;
+
 }
 .card-body{
     background-color: #0D0D0D;
 }
-.card a{
+.card-part a{
     background-color: #015196;
+}
+
+.selected-player-part{
+    background-color: #0D0D0D;
 }
 
 .budget-part{
@@ -69,4 +78,8 @@ a{
 }
 #total{
     color: #FF5E19;
+}
+
+footer{
+    background-color: #434343;
 }
