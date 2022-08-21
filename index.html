@@ -106,12 +106,27 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="row">
-                        <div col-lg-12>
-                            <h3>Budget</h3>
-                            <div class="per-player">
-                                <p>Per Player</p>
+                        <div class="col-lg-12">
+                            <div class="budget-part p-5">
+                                <h2 class="text-white fw-semibold fs-3 text-center mb-4">Budget</h2>
+                                <div class="per-player-cost d-flex align-items-center">
+                                    <p class="fw-normal fs-5 common-p">Per Player</p>
+                                    <input id="per-player" class="w-50 ms-3 text-white py-2 common-input" type="text">
+                                </div>
+                                <button id="calculate" class="fw-bold fs-5 w-100 py-2 text-white mt-4 calculate-part">Calculate</button>
+                                <p class="fw-normal fs-5 common-p mt-4">Player Expense:   <Span id="player Expense"></Span></p>
+                                <div class="manager-part d-flex align-items-center mt-4">
+                                    <p class="fw-normal fs-5 common-p">Manager</p>
+                                    <input id="manager" class="w-50 ms-4 text-white py-2 common-input" type="text">
+                                </div>
+                                <div class="coach-part d-flex align-items-center mt-4">
+                                    <p class="fw-normal fs-5 common-p">Coach</p>
+                                    <input id="coach" class="w-50 ms-3 text-white py-2 common-input ms-5" type="text">
+                                </div>
+                                <button id="calculate-total" class="fw-bold fs-5 w-100 py-2 text-white mt-4 calculate-part">Calculate Total</button>
+
+                                <h3 class="d-flex justify-content-between common-p mt-4">Total:  <Span id="total">ssdfsaa</Span></h3>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>

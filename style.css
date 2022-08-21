@@ -52,3 +52,21 @@ a{
 .card a{
     background-color: #015196;
 }
+
+.budget-part{
+    background-color: #0D0D0D;
+}
+
+.common-p{
+    color: #AFAFAF;
+}
+.common-input{
+    background-color: #0D0D0D;
+    border: 1px solid #FFFFFF;
+}
+.calculate-part{
+    background-color: #015196;
+}
+#total{
+    color: #FF5E19;
+}
