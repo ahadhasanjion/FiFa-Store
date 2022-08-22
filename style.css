@@ -54,9 +54,9 @@ a{
 .card-body{
     background-color: #0D0D0D;
 }
-.card-part a{
+/* #btn{
     background-color: #015196;
-}
+} */
 
 .selected-player-part{
     background-color: #0D0D0D;
@@ -81,5 +81,38 @@ a{
 }
 
 footer{
-    background-color: #434343;
+    background-color:#0D0D0D;
 }
+
+
+/* function getElementTextbyId(Id, newValue) {
+    const elementField = document.getElementById(Id);
+    const elementFieldString = elementField.innerText;
+    const elementFiel = parseFloat(elementFieldString);
+    elementField.innerText = newValue;
+    return elementFiel;
+}
+function setElementVbyId(Id) {
+    const elementField = document.getElementById(Id);
+    const elementFieldString = elementField.innerText;
+    const elementFiel = parseFloat(elementFieldString);
+    return elementFiel;
+}
+document.getElementById('calculate-total').addEventListener('click', function(){
+    let coachCost = getInputFieldbyId('coach');
+    let managerCost = getInputFieldbyId('manager');
+    let playerExpense =setElementVbyId('player-Expense')
+    let totalCost = coachCost + managerCost + playerExpense;
+    getElementTextbyId('total', totalCost);
+}) */
+
+/* // for(let i = 0; i < playername.length; i++){
+    //     // console.log(playername[i].playerName);
+    //     const name = playername[i].playerName;
+    //     const tr = document.createElement("tr");
+    //     tr.innerHTML = ` 
+    //          <th>${i + 1}</th>
+    //         <td>${name}</td>
+    //     `
+    //     tbody.appendChild(tr);
+    // }; */
