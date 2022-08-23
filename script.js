@@ -2,14 +2,18 @@ function getInputFieldbyId(Id) {
     const inputField = document.getElementById(Id);
     const inputFieldValueString = inputField.value;
     const inputFieldValue = parseFloat(inputFieldValueString);
+    if (isNaN(inputFieldValue)) {
+        alert('please  give the valid number in input field');
+    }
     return inputFieldValue;
+
 }
 document.getElementById('calculate').addEventListener('click', function () {
-
     let perPlayerBudget = getInputFieldbyId('per-player');
     let playerBudget = perPlayerBudget * playername.length;
-    const playerExpense = document.getElementById('player-Expense')
+    let playerExpense = document.getElementById('player-Expense')
     playerExpense.innerText = playerBudget;
+
 })
 document.getElementById('calculate-total').addEventListener('click', function () {
     let perPlayerBudget = getInputFieldbyId('per-player');
