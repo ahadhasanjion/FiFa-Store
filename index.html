@@ -23,11 +23,9 @@
                 <img class="position-relative z-index" src="images/image 27.png">
                 <img class="position-absolute top-0 start-0 mt-5" src="images/path56.png">
             </div>
-            <div class="banner-text text-center">
-                <h1 class="fw-normal">Select Best Players</h1>
-                <p class="text-white">2022 the greatest show on earth is happening in Qatar. Book Your Tickets now and
-                    enjoy the
-                    greatest show on earth</p>
+            <div class="banner-text mx-auto text-center w-50">
+                <h1 class="fw-normal">Buy The Best Players</h1>
+                <p class="text-white">The Greatest Game ever. Buy your favourite palyers and play with others for win amazing prizes and chance to meet your favourite player and a VIP ticket for their next match.</p>
             </div>
         </div>
     </section>
@@ -96,7 +94,7 @@
                             <div class="card-part mt-5">
                                 <img src="images/Cristiano-Ronaldo-Man-United.png" class="card-img-top football-player" alt="...">
                                 <div class="card-body p-2 text-center">
-                                    <h5 class="card-title text-white fw-bold pt-3">Lional Messi</h5>
+                                    <h5 class="card-title text-white fw-bold pt-3">Cristiano-Ronaldo</h5>
                                     <p class="card-text text-white fw-normal">18  Goals . 10 Assist</p>
                                     <button class="fw-bold btn btn-primary py-2 px-5 mt-4 mb-4 w-75 text-white rounded" onclick="addPlayers(this)">SELECT</button>
                                 </div>
@@ -147,10 +145,13 @@
                                     <p class="fw-normal fs-5 common-p">Per Player</p>
                                     <input id="per-player" class="w-50 ms-3 text-white py-2 common-input" type="text">
                                 </div>
-                                <button id="calculate"
-                                    class="fw-bold fs-5 w-100 py-2 text-white mt-4 calculate-part">Calculate</button>
-                                <p class="fw-normal fs-5 common-p mt-4">Player Expense: <Span
-                                        id="player-Expense">$0</Span></p>
+                                <button id="calculate" class="fw-bold fs-5 w-100 py-2 text-white mt-4 calculate-part">Calculate</button>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <p class="common-p fw-normal fs-5">Player Expense</p>
+                                    <h3 class="player_Expense fw-normal fs-5">$<Span id="player-Expense"></Span></h3>
+                                </div>
+                                <!-- <p class="fw-normal fs-5 common-p mt-4">Player Expense: <Span
+                                        id="player-Expense">$</Span></p> -->
                                 <div class="manager-part d-flex align-items-center mt-4">
                                     <p class="fw-normal fs-5 common-p">Manager</p>
                                     <input id="manager" class="w-50 ms-4 text-white py-2 common-input" type="text">
@@ -160,11 +161,12 @@
                                     <input id="coach" class="w-50 ms-3 text-white py-2 common-input ms-5" type="text">
                                 </div>
                                 <button id="calculate-total"
-                                    class="fw-bold fs-5 w-100 py-2 text-white mt-4 calculate-part">Calculate
-                                    Total</button>
-
-                                <h3 class="d-flex justify-content-between common-p mt-4">Total: <Span
-                                        id="total">$0</Span></h3>
+                                    class="fw-bold fs-5 w-100 py-2 text-white mt-4 calculate-part">Calculate total
+                                </button>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <h3 class="common-p fs-5">Total</h3>
+                                    <h3 class="total-balance fs-5">$<span id="total"></span></h3>
+                                </div>
                             </div>
                         </div>
                     </div>
