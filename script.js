@@ -2,9 +2,6 @@ function getInputFieldbyId(Id) {
     const inputField = document.getElementById(Id);
     const inputFieldValueString = inputField.value;
     const inputFieldValue = parseFloat(inputFieldValueString);
-    if (isNaN(inputFieldValue)) {
-        alert('please  give the valid number in input field');
-    }
     return inputFieldValue;
 
 }
